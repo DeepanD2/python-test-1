@@ -1,0 +1,13 @@
+n=int(input("Enter the number"))
+def fact(n):
+    if n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+    
+if(n<0):
+    print("not a factorial")
+elif(n==0):
+    print("A factorial of 0 is 1")
+else:
+    print("factorial is",n,fact(n))
