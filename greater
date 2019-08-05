@@ -1,0 +1,9 @@
+
+    
+l1=list(map(int,input("enter list").split()))
+n=int(input("enter number "))
+for i in l1:
+    if i < n:
+        print("not all no are greater than certain  no")
+    else:
+        print("not all no are not greater than certain  no")
