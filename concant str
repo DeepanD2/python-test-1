@@ -1,0 +1,6 @@
+    
+n=list(filter(str,input("enter list ").split()))
+a=""
+for i in n:
+    a += str(i)
+print(a)
