@@ -1,0 +1,3 @@
+n=tuple(map(int,input("Enter the Requied tuple ").split()))
+
+print(n[0])
