@@ -1,0 +1,6 @@
+l1=[3,45,56,77]
+n=int(input("Enter a number: "))
+if n in l1:
+    print("TRUE")
+else:
+    print("FALSE")
