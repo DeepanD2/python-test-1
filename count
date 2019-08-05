@@ -1,0 +1,6 @@
+a=list(filter(int,input("enter the list ").split()))
+count=0
+for i in a:
+    if i == 4:
+        count+=1
+print("The number of 4 present in the list are: ",count)
