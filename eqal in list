@@ -1,0 +1,5 @@
+a=list(map(int,input("enter list ").split()))
+if (len(set(a))==len(a)):
+    print("Unique")
+else:
+    print("some are same")
