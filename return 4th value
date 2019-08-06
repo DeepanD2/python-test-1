@@ -1,0 +1,2 @@
+n=tuple(map(int,input("Enter the set of numbers separated by space: ").split()))
+print("4 th element from index: ",n[3],"4 th element from last",n[-4])
